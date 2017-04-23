@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Ryner Homes - Contact</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	<script>
+      function initialize() {
+        var map_canvas = document.getElementById('map_canvas');
+        var map_options = {
+          center: new google.maps.LatLng(47.958871, -121.948133),
+          zoom: 11,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(map_canvas, map_options)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+</head>
+<body>
+	<div id="header">
+		<a href="index.html" class="logo"><img src="images/logo_new.png" alt=""></a>
+		<ul>
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+			<li>
+				<a href="about.html">About Us</a>
+			</li>
+			<li>
+				<a href="services.html">Our Services</a>
+			</li>
+			<li>
+				<a href="gallery.html">Gallery</a>
+			</li>
+			<li class="selected">
+				<a href="contact.html">Contact Us</a>
+			</li>
+			<li>
+				<a href="#">Client Login</a>
+			</li>
+		</ul>
+	</div>
+	<div id="body">
+		<div class="header_contact">
+		</div>
+		<div class="content2">
+			<!-- <h2>Contact Address</h2>
+			<p>
+				Ryner Homes
+			</p>
+			<p>
+				4224 211th Avenue SE
+			</p>
+			<p>
+				Snohomish, WA 98290-7412 
+			</p> -->
+			<div class="contact_left_box">
+			<h3>Customer Support</h3>
+			<ul class="contact">
+				<li>
+					Ryner Homes
+				</li>
+				<li>
+					4224 211th Avenue SE
+				</li>
+				<li>
+					Snohomish, WA 98290
+				</li>
+				<li>
+					Phone: (425) 328-0252
+				</li>
+				<li>
+					Email address: <a href="mailto:info@rynerhomes.com">info@rynerhomes.com</a> 
+				</li>
+			</ul>
+
+			<h3>Contact Forms</h3>
+			<ul class="contact">
+				<li id="forms">
+					<a href="#">Form 1</a>
+				</li>
+				<li id="forms">
+					<a href="#">Form 2</a>
+				</li>
+				<li id="forms">
+					<a href="#">Form 3</a>
+				</li>
+			</ul>
+			<br>
+			<p>
+			We gladly accept these forms of payment:
+			</p>
+			<br>
+			 <img src="img/amex.gif" alt="">
+			  <img src="img/mclogo.gif" alt="">
+			   <img src="img/visalogo.gif" alt="">
+			    <img src="img/discoverlogo.gif" alt="">
+			
+			</div>
+			
+			<div class="contact_right_box">
+			<br>
+				<!-- <a href="gallery-interior.html" class="figure"><img src="images/gallery_interior_kitchen.jpg" alt=""></a> -->
+			<div id="map_canvas"></div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<ul>
+				<li class="twitter">
+					<a href="#">twitter</a>
+				</li>
+				<li class="facebook">
+					<a href="#">facebook</a>
+				</li>
+				<li class="googleplus">
+					<a href="#">googleplus</a>
+				</li>
+			</ul>
+			<p>
+				A Solid Structure around the People You Love - &copy; Copyright 2014
+			</p>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+.bg-color-portfolio{
+  background-color: rgba(102, 166, 185, 0.62);
+}
+
+.bg-color-pricing{
+  background-image: url(../img/blue-fabric-texture-opacity.jpg);
+  /*background-color: rgba(102, 166, 185, 0.62);*/
+  /*opacity: 0.75;*/
+}
+
+.image-border-portfolio{
+  border-style: solid;
+  border-color: #222;
+  border-width: thin;
+}
+
+.section-heading-about, .section-heading-contact{
+  color: #222;
+  font-family: "Merriweather", Times, serif;
+  font-size: 48px;
+}
+
+.section-heading-services, .section-heading-portfolio, .section-heading-pricing{
+  color: #fff;
+  font-family: "Merriweather", Times, serif;
+  font-size: 54px;
+}
+
+.section-pricing-shadow{
+  text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+
+.hr-primary{
+    max-width: 50px;
+    /*border-color: #f05f40;*/
+    border-color: #fff;
+    border-width: 3px;
+}
+
+.list-group-item-pricing{
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.panel-footer-pricing{
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  text-align: center;
+}
+
+.portfolio-spacing{
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.row-pricing{
+  margin-left: 5px;
+  margin-right: 40px;
+}
